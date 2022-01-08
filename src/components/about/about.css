@@ -1,0 +1,158 @@
+.a {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right {
+
+    flex: 1;
+    padding-right: 50px;
+    padding-top: 4%;
+    text-align: justify;
+
+}
+
+.a-card.bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: white;
+}
+
+.a-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.a-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a-award-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+.a-title {
+    font-weight: 400;
+    align-items: center;
+    padding-left: 350px;
+
+}
+
+.a-sub {
+    margin: 20px 0px;
+
+
+}
+
+.a-desc {
+    font-weight: 300;
+    width: 130vh;
+
+}
+
+.a-award {
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.a-award-texts {
+    width: 70%;
+}
+
+.a-award-title {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 480px) {
+    .a {
+        flex-direction: row;
+        text-align: center;
+        height: 10%;
+
+    }
+
+    .a-img {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .a-right {
+        width: 100%;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-title {
+        margin-top: 20px;
+        font-weight: 400;
+        width: 55vh;
+        padding-left: 0px;
+        /* border: 1px solid black; */
+    }
+
+    .a-sub {
+        padding: 10px;
+    }
+
+    .a-award-title {
+        padding: 10px;
+    }
+
+    /* .a-desc {
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .a-award-desc {
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+
+    .a-award-title {
+        font-size: 15px;
+
+    }
+
+    .a-card.bg, .a-award-img, .a-img, .a-desc {
+        display: none;
+    }
+
+
+}
