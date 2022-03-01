@@ -1,7 +1,7 @@
 export const products = [
 {
     id: 1,
-    img: "https://images.unsplash.com/photo-1604076850742-4c7221f3101b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    img: "https://i.pinimg.com/564x/3a/a6/d9/3aa6d94c921ae058727985a572aefe13.jpg",
     link:"https://ethxchain.tech",
 },
 {
